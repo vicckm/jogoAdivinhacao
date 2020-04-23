@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #5E503F;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: #C6AC8F;
+}
+
+.caixa { 
+  width: 500px;
+  border: 3px solid #5E503F;
+  padding: 20px;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.descricaoTitulo {
+  margin-bottom: 10px;
+}
+
+.form {
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 10px;
+  grid-template: 2, 1fr;
+  justify-items: center;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.campoPalpite {
+  width: 100px;
+  background-color: #C6AC8F;
+  border: 2px solid #5E503F;
+  padding: 2px;
+  outline: none;
+}
+
+.envioPalpite {
+  padding: 5px;
+  border: 3px solid #5E503F;
+  background-color: #C6AC8F;
+}
+
+.palpites {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
